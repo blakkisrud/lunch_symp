@@ -1,0 +1,371 @@
+\documentclass{beamer}
+
+\usepackage{amsmath}
+\usepackage{filecontents}
+\usepackage{biblatex}
+\usepackage[utf8]{inputenc}
+\bibliography{references}
+
+\newcommand{\titleText}{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry and some Results}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+\title{\titleText}   
+\author{Johan Blakkisrud} 
+
+\institute{Department of Diagnostic Physics, KRN, OUS}
+
+%\logo{
+%    \includegraphics[width = 4cm, height = 4cm, keepaspectratio]{figs/OUS.png}
+%}
+\date{\today} 
+
+%\newcommand{\nologo}{\setbeamertemplate{logo}{}}
+%%\newcommand{\tripellogo}{\setbeamertemplate{logo}{
+%%
+%%	\includegraphics[width = 3.5cm, height = 3.5cm, keepaspectratio]{figs/OUS.png}
+%%	\includegraphics[width = 2.5cm, height = 2.5cm, keepaspectratio]{figs/UIO.png}
+%%	\includegraphics[width = 2cm, height = 2cm, keepaspectratio]{figs/NORDIC.jpg}
+%%
+%%}}
+%
+%\newcommand{\tripellogo}{\setbeamertemplate{logo}{
+%
+%	\includegraphics[width = 3.5cm, height = 3.5cm, keepaspectratio]{figs/logo_mashup.png}
+%
+%}}
+
+\frame{\titlepage} 
+
+
+\frame{\frametitle{Outline}\tableofcontents} 
+
+\frame{\frametitle{Dummy title}
+
+    \centering
+    \includegraphics<1>[width = 1.0\linewidth]{slides/tac_show/slide_0.png}
+    \includegraphics<2>[width = 1.0\linewidth]{slides/tac_show/slide_1.png}
+    \includegraphics<3>[width = 1.0\linewidth]{slides/tac_show/slide_3.png}
+    \includegraphics<4>[width = 1.0\linewidth]{slides/tac_show/slide_4.png}
+    \includegraphics<5>[width = 1.0\linewidth]{slides/tac_show/slide_5.png}
+    \includegraphics<6>[width = 1.0\linewidth]{slides/tac_show/slide_6.png}
+    \includegraphics<7>[width = 1.0\linewidth]{slides/tac_show/slide_7.png}
+
+}
+
+\frame{\frametitle{Dummy title}
+
+    \centering
+    \includegraphics<1>[width = 1.0\linewidth]{slides/organ_show/slide_organs_0.png}
+    \includegraphics<2>[width = 1.0\linewidth]{slides/organ_show/slide_organs_1.png}
+    \includegraphics<3>[width = 1.0\linewidth]{slides/organ_show/slide_organs_3.png}
+    \includegraphics<4>[width = 1.0\linewidth]{slides/organ_show/slide_organs_4.png}
+    \includegraphics<5>[width = 1.0\linewidth]{slides/organ_show/slide_organs_5.png}
+    \includegraphics<6>[width = 1.0\linewidth]{slides/organ_show/slide_organs_6.png}
+
+}
+
+\end{document}
+
+%\section{Antibody}
+%
+%
+%{ % Begin no logo
+%    \nologo
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \begin{columns}[T]
+%	\column{.45\linewidth}
+%    
+%\begin{itemize}
+%	\item
+%	    Combine and we get $^{177}$Lu-lilotomab satetraxetan (Betalutin$\textregistered$)
+%	\item
+%	    Developed by Nordic Nanovector ASA
+%	\item
+%	    Currently in the multi center phase 1/2 LYMRIT trial for B-cell non-Hodgkin Lymphoma (PI A. Kolstad)
+%	    
+%    \end{itemize}
+%
+%    \column{.45\linewidth}
+%
+%    \vspace{1.5cm}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/betalutin_fig.png}
+%
+%\end{columns}
+%    
+%\footnotetext[1]{\tiny{Dahle, Repetto-Llamazares, Mollatt, Melhus, Bruland, Kolstad, Larsen:Evaluating Antigen Targeting and Anti-tumor Activity of a New Anti-CD37 Radioimmunoconjugate Against Non-Hodgkin's Lymphoma:Anticancer Research:33:1:85-95:2013}}
+%
+%}
+%
+%}
+%
+%\section{Therapy with 177-Lu-lilotomab satetraxetan}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_full.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_pet.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_ritux.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_lilotomab.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_betalutin.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_planar_spect.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_planar_pet_follow_up.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_blood.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/therapy_time_line/step_full.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/arm1_and_2/plain.png}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate \textbf{therapy with 177-Lu-lilotomab satetraxetan:} Dosimetry and Some results}
+%
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/arm1_and_2/diff.png}
+%
+%}
+%
+%
+%    { % Begin no logo structure here
+%	\nologo
+%
+%    
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_six.png}
+%
+%
+%    }
+%    
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_five.png}
+%
+%
+%    }
+%    
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_four.png}
+%
+%
+%    }
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_three.png}
+%
+%
+%    }
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_two.png}
+%    \footnotetext[1]{\tiny{https://www.healthcare.siemens.co.uk/molecular-imaging/spect-and-spect-ct/symbia-t}}
+%
+%
+%    }
+%    
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_one_tum.png}
+%    %\includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_minus_one.png}
+%
+%
+%    }
+%
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last_tum.png}
+%    %\includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/step_last.png}
+%
+%
+%    }
+%
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: \textbf{Dosimetry} and Some results}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/full_tum.png}
+%    %\includegraphics[width = 0.7\linewidth]{figs/radiation_dosimetry/full.png}
+%
+%
+%    }
+%
+%}
+%
+%    \section{and Some results}
+%
+%    { % Begin part with no logo
+%	\nologo
+%
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry \textbf{and Some results}}
+%
+%    }
+%    
+%    \frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry \textbf{and Some results}}
+%    
+%    \centering
+%    \includegraphics[width = 0.7\linewidth]{figs/tumorA.png}
+%    
+%    \footnotetext[1]{\tiny{Blakkisrud, Løndalen, Martinsen, Dahle, Holtedahl, Bach-Gansmo, Kolstad, \& Stokke, Tumor absorbed dose for non-Hodgkin's lymphoma patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med, 4/8/2016}}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry \textbf{and Some results}}
+%    
+%    \centering
+%    \includegraphics[width = 1.1\linewidth]{figs/Fig_AB.png}
+%
+%    %\footnotetext[1]{\tiny{Blakkisrud, Løndalen, Martinsen, Dahle, Holtedahl, Bach-Gansmo, Kolstad, \& Stokke, Tumor absorbed dose for non-Hodgkin's lymphoma patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med, 4/8/2016}}
+%    \footnotetext[1]{\tiny{Blakkisrud, Løndalen, Dahle, Turner, Holte, Kolstad \& Stokke. Red Marrow Absorbed Dose for non-Hodgkin's Lymphoma Patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med, 1/9/2016}}
+%
+%}
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry \textbf{and Some results}}
+%
+%%	\begin{columns}[T]
+%%
+%%	    \column{.45\linewidth}
+%%	    
+%%	    \centering
+%%
+%%	    \begin{figure}
+%%	    \caption{Red marrow absorbed doses}	    
+%%	    \includegraphics[width = 1.2\linewidth]{figs/Fig2.png}
+%%	    
+%%	    \end{figure}
+%%
+%%	    \column{.45\linewidth}
+%%
+%%	    \centering
+%%
+%%	    \begin{figure}
+%%
+%%	    \caption{Tumor absorbed doses}	    
+%%	    \includegraphics[width = 1.2\linewidth]{figs/tumor_boxplot.png}
+%%	    \end{figure}
+%%
+%%	\end{columns}
+%    \centering
+%    \includegraphics[width = 1.0\linewidth]{figs/boxplot_cheat.png}
+%    \footnotetext[1]{\tiny{Blakkisrud, Løndalen, Martinsen, Dahle, Holtedahl, Bach-Gansmo, Kolstad, \& Stokke, Tumor absorbed dose for non-Hodgkin's lymphoma patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med, 4/8/2016}}
+%    \footnotetext[2]{\tiny{Blakkisrud, Løndalen, Dahle, Turner, Holte, Kolstad \& Stokke. Red Marrow Absorbed Dose for non-Hodgkin's Lymphoma Patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med, 1/9/2016}}
+%
+%
+%}
+%
+%} % End no logo
+%
+%{ % Begin no logo slide
+%
+%    \tripellogo
+%
+%\frame{\frametitle{Antibody-radionuclide conjugate therapy with 177-Lu-lilotomab satetraxetan: Dosimetry and Some results}
+%
+%    \begin{itemize}
+%
+%	\item
+%	    Caroline Stokke, Ph.D (Main supervisor)
+%	\item
+%	    Ayca Løndalen, MD
+%	\item
+%	    Tore Bach-Gansmo MD, Ph.D
+%	\item
+%	    Mona-Elisabeth Revheim, MD Ph.D
+%	\item
+%	    Jon Erik Holtedahl, MSc
+%	\item
+%	    Anne Catrine Martinsen, Ph.D
+%	\item
+%	    Technical personel at Nuclear Medicine, OUS
+%	    \vspace{0.1cm}
+%	\item
+%	    Arne Kolstad, MD, Ph.D (PI LYMRIT trial)
+%	\item
+%	    Harald Holte, MD, Ph.D
+%	\item
+%	    Stine Nygaard
+%	    \vspace{0.1cm}
+%
+%	\item
+%	    Jostein Dahle, Ph.D
+%	\item
+%	    Simon Turner, Ph.D
+%
+%    \end{itemize}
+%	
+%} % End no logo slides
+%
+%}
+%    
+%\end{document}
+
+%\footnotetext[1]{\tiny{Blakkisrud, Løndalen, Martinsen, Dahle, Holtedahl, Bach-Gansmo, Holte, Harald, Kolstad, \& Stokke, Tumor absorbed dose for non-Hodgkinâs lymphoma patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med}}
+%\footnotetext[2]{\tiny{Blakkisrud, Løndalen, Dahle, Turner, Holte, Kolstad \& Stokke. Red Marrow Absorbed Dose for non-Hodgkin's Lymphoma Patients treated with the novel anti-CD37 antibody radionuclide conjugate 177Lu-lilotomab satetraxetan, J Nucl Med Date}}
+%\footnotetext[1]\tiny{Coffey, Diez-Ferrer, Serrate, David Ciria, Fuente, Arnaudas, Jose Ignacio: Antiferromagnetic Spin Coupling between Rare Earth Adatoms and Iron Islands Probed by Spin-Polarized Tunneling:Scientific Reports:5:13709}
+%\footnotetext[1]\tiny{Dahle, Repetto-Llamazares, Mollatt, Melhus, Bruland, Kolstad, Larsen:Evaluating Antigen Targeting and Anti-tumor Activity of a New Anti-CD37 Radioimmunoconjugate Against Non-Hodgkin's Lymphoma:Anticancer Research:33:1:85-95:2013}
+%\footnotetext[1]\tiny{https://www.healthcare.siemens.co.uk/molecular-imaging/spect-and-spect-ct/symbia-t}
+%\footnotetext[1]{\tiny{177Lu-Satetraxetan-Lilotomab in the Treatment of Patients with Indolent Non-Hodgkin B-Cell Lymphoma (NHL) Phase 1/2 Safety and Efficacy Data From Four Different Pre-dosing Regimens}}
