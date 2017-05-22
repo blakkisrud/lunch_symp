@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.14)  18 MAY 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.14)  22 MAY 2017 23:26
 entering extended mode
 **./press.tex
 (press.tex
@@ -1463,170 +1463,139 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 {C:/Users/Johan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (press.toc) [2
 
-] <slides/tac_show/slide_0.png, id=26, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_0.png Graphic file (type png)
+]
+<slides/history_slides/slide_0.png, id=50, 364.2408pt x 273.1806pt>
+File: slides/history_slides/slide_0.png Graphic file (type png)
 
-<use slides/tac_show/slide_0.png>
-Package pdftex.def Info: slides/tac_show/slide_0.png used on input line 55.
+<use slides/history_slides/slide_0.png>
+Package pdftex.def Info: slides/history_slides/slide_0.png used on input line 5
+9.
 (pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
  [3
 
- <./slides/tac_show/slide_0.png>]
-<slides/tac_show/slide_1.png, id=34, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_1.png Graphic file (type png)
-
-<use slides/tac_show/slide_1.png>
-Package pdftex.def Info: slides/tac_show/slide_1.png used on input line 55.
+ <./slides/history_slides/slide_0.png>]
+File: slides/history_slides/slide_0.png Graphic file (type png)
+ <use slides/history_slides/slide_0.png>
+Package pdftex.def Info: slides/history_slides/slide_0.png used on input line 7
+7.
 (pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
  [4
 
- <./slides/tac_show/slide_1.png>]
-<slides/tac_show/slide_3.png, id=41, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_3.png Graphic file (type png)
+]
+<slides/tac_show/slide_0.png, id=61, 364.2408pt x 273.1806pt>
+File: slides/tac_show/slide_0.png Graphic file (type png)
 
-<use slides/tac_show/slide_3.png>
-Package pdftex.def Info: slides/tac_show/slide_3.png used on input line 55.
+<use slides/tac_show/slide_0.png>
+Package pdftex.def Info: slides/tac_show/slide_0.png used on input line 96.
 (pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
  [5
 
- <./slides/tac_show/slide_3.png>]
-<slides/tac_show/slide_4.png, id=48, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_4.png Graphic file (type png)
-
-<use slides/tac_show/slide_4.png>
-Package pdftex.def Info: slides/tac_show/slide_4.png used on input line 55.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [6
-
- <./slides/tac_show/slide_4.png>]
-<slides/tac_show/slide_5.png, id=55, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_5.png Graphic file (type png)
-
-<use slides/tac_show/slide_5.png>
-Package pdftex.def Info: slides/tac_show/slide_5.png used on input line 55.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [7
-
- <./slides/tac_show/slide_5.png>]
-<slides/tac_show/slide_6.png, id=63, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_6.png Graphic file (type png)
-
-<use slides/tac_show/slide_6.png>
-Package pdftex.def Info: slides/tac_show/slide_6.png used on input line 55.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [8
-
- <./slides/tac_show/slide_6.png>]
-<slides/tac_show/slide_7.png, id=70, 364.2408pt x 273.1806pt>
-File: slides/tac_show/slide_7.png Graphic file (type png)
-
-<use slides/tac_show/slide_7.png>
-Package pdftex.def Info: slides/tac_show/slide_7.png used on input line 55.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [9
-
- <./slides/tac_show/slide_7.png>]
-<slides/organ_show/slide_organs_0.png, id=77, 364.2408pt x 273.1806pt>
+ <./slides/tac_show/slide_0.png>]
+<slides/organ_show/slide_organs_0.png, id=67, 364.2408pt x 273.1806pt>
 File: slides/organ_show/slide_organs_0.png Graphic file (type png)
 
 <use slides/organ_show/slide_organs_0.png>
 Package pdftex.def Info: slides/organ_show/slide_organs_0.png used on input lin
-e 67.
+e 108.
+(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
+ [6
+
+ <./slides/organ_show/slide_organs_0.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+
+("C:\Users\Johan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+("C:\Users\Johan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 121.
+
+("C:\Users\Johan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\ot1
+mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [7
+
+]
+<slides/betalutin_intro/slide_0.png, id=84, 364.2408pt x 273.1806pt>
+File: slides/betalutin_intro/slide_0.png Graphic file (type png)
+
+<use slides/betalutin_intro/slide_0.png>
+Package pdftex.def Info: slides/betalutin_intro/slide_0.png used on input line 
+133.
+(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
+ [8
+
+ <./slides/betalutin_intro/slide_0.png>] <slides/betalutin_intro/slide_1.png, i
+d=90, 364.2408pt x 273.1806pt>
+File: slides/betalutin_intro/slide_1.png Graphic file (type png)
+
+<use slides/betalutin_intro/slide_1.png>
+Package pdftex.def Info: slides/betalutin_intro/slide_1.png used on input line 
+133.
+(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
+ [9
+
+ <./slides/betalutin_intro/slide_1.png>] <slides/betalutin_intro/slide_3.png, i
+d=97, 364.2408pt x 273.1806pt>
+File: slides/betalutin_intro/slide_3.png Graphic file (type png)
+
+<use slides/betalutin_intro/slide_3.png>
+Package pdftex.def Info: slides/betalutin_intro/slide_3.png used on input line 
+133.
 (pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
  [10
 
- <./slides/organ_show/slide_organs_0.png>]
-<slides/organ_show/slide_organs_1.png, id=84, 364.2408pt x 273.1806pt>
-File: slides/organ_show/slide_organs_1.png Graphic file (type png)
+ <./slides/betalutin_intro/slide_3.png>] <slides/betalutin_intro/slide_4.png, i
+d=104, 364.2408pt x 273.1806pt>
+File: slides/betalutin_intro/slide_4.png Graphic file (type png)
 
-<use slides/organ_show/slide_organs_1.png>
-Package pdftex.def Info: slides/organ_show/slide_organs_1.png used on input lin
-e 67.
+<use slides/betalutin_intro/slide_4.png>
+Package pdftex.def Info: slides/betalutin_intro/slide_4.png used on input line 
+133.
 (pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
  [11
 
- <./slides/organ_show/slide_organs_1.png>]
-<slides/organ_show/slide_organs_3.png, id=91, 364.2408pt x 273.1806pt>
-File: slides/organ_show/slide_organs_3.png Graphic file (type png)
+ <./slides/betalutin_intro/slide_4.png>]
 
-<use slides/organ_show/slide_organs_3.png>
-Package pdftex.def Info: slides/organ_show/slide_organs_3.png used on input lin
-e 67.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [12
-
- <./slides/organ_show/slide_organs_3.png>]
-<slides/organ_show/slide_organs_4.png, id=98, 364.2408pt x 273.1806pt>
-File: slides/organ_show/slide_organs_4.png Graphic file (type png)
-
-<use slides/organ_show/slide_organs_4.png>
-Package pdftex.def Info: slides/organ_show/slide_organs_4.png used on input lin
-e 67.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [13
-
- <./slides/organ_show/slide_organs_4.png>]
-<slides/organ_show/slide_organs_5.png, id=106, 364.2408pt x 273.1806pt>
-File: slides/organ_show/slide_organs_5.png Graphic file (type png)
-
-<use slides/organ_show/slide_organs_5.png>
-Package pdftex.def Info: slides/organ_show/slide_organs_5.png used on input lin
-e 67.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [14
-
- <./slides/organ_show/slide_organs_5.png>]
-<slides/organ_show/slide_organs_6.png, id=113, 364.2408pt x 273.1806pt>
-File: slides/organ_show/slide_organs_6.png Graphic file (type png)
-
-<use slides/organ_show/slide_organs_6.png>
-Package pdftex.def Info: slides/organ_show/slide_organs_6.png used on input lin
-e 67.
-(pdftex.def)             Requested size: 307.28987pt x 230.47887pt.
- [15
-
- <./slides/organ_show/slide_organs_6.png>]
-\tf@nav=\write8
-\openout8 = `press.nav'.
-
-\tf@toc=\write9
-\openout9 = `press.toc'.
-
-\tf@snm=\write10
-\openout10 = `press.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
- (press.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
-Package rerunfilecheck Info: File `press.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+LaTeX Warning: File `slides/dosimetry_wflow/slide_0.png' not found on input lin
+e 147.
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+! Package pdftex.def Error: File `slides/dosimetry_wflow/slide_0.png' not found
+.
 
-Package logreq Info: Writing requests to 'press.run.xml'.
-\openout1 = `press.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
- ) 
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 }
+       
+? X
+ 
 Here is how much of TeX's memory you used:
- 22700 strings out of 493634
- 433873 string characters out of 3135239
- 862839 words of memory out of 3000000
- 25612 multiletter control sequences out of 15000+200000
- 5452 words of font info for 20 fonts, out of 3000000 for 9000
+ 22775 strings out of 493634
+ 435585 string characters out of 3135239
+ 863811 words of memory out of 3000000
+ 25679 multiletter control sequences out of 15000+200000
+ 10390 words of font info for 38 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  56i,11n,55p,939b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmss10.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on press.pdf (15 pages, 14033347 bytes).
+<C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmex10.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmss10.pfb><C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Johan/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Johan/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Joha
+n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
+C:/Users/Johan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb>
+Output written on press.pdf (11 pages, 10162951 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
